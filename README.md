@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+<div align="center">
+  
+# Calculadora de Combustível (Álcool/Gasolina)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Projeto feito para calcular o valor entre álcool e gasolina e assim saber com qual é melhor abastecer o seu carro.
 
-Currently, two official plugins are available:
+</br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p> Para fazer o cálculo dividimos o valor do álcool pelo valor da gasolina (por litro). Se o resultado for menor que 0,70 (ou 70%), o etanol é considerado mais vantajoso economicamente. </p>
 
-## Expanding the ESLint configuration
+</br> </br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![combustivel](https://github.com/user-attachments/assets/b7a1486f-af55-4ef2-a192-68ae7c2ed33f)
 
-- Configure the top-level `parserOptions` property like this:
+</br>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![combustivel-calc](https://github.com/user-attachments/assets/19ba4104-e2f0-4cfc-97ca-81f69735ead3)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## As tecnologias utilizadas nesse projeto foram: NodeJS, ReactJS, TypeScript e Vite.
+  
+</div>
